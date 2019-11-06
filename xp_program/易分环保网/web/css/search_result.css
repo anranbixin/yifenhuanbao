@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+html,body{
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*导航栏样式部分*/
+.nav{
+    width: 100%;
+    height: 70px;
+
+}
+.nav ul{
+    list-style: none;
+}
+/*.nav ul:nth-child(2){*/
+/*margin-left: 400px;*/
+/*}*/
+.nav ul li{
+    float: left;
+    /*margin-left: 400px;*/
+    padding: 15px 30px;
+}
+.search{
+    width: 700px;
+    height: 30px;
+    /*border: 1px solid #000;*/
+    margin: 0 auto;
+}
+.search .search_box{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    outline: none;
+}
+.search_img{
+    position: relative;
+}
+.search_img img{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: -30px;
+    right: 0;
+}
+.search_result{
+    width: 88%;
+    height: 440px;
+}
+.search_result ul{
+    margin: 40px 150px;
+    width: 100%;
+    height: 300px;
+}
+.search_result ul li{
+    width: 250px;
+    height: 150px;
+   border:2px solid #ccc;
+    box-shadow: #ccc;
+    float: left;
+    padding: 20px 20px;
+    margin: 0 53px 20px 20px;
+    position: relative;
+}
+.details{
+    width: 143px;
+    height: 140px;
+}
+.search_result .details a{
+    display: inline-block;
+    width: 140px;
+    height: 20px;
+    position: relative;
+}
+/*.search_result .details .img a img{*/
+    /*display: inline-block;*/
+    /*width: 18px;*/
+    /*height: 18px;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 109px;*/
+    /*!*background-color: red;*!*/
+    /*!*margin-left: 148px;*!*/
+/*}*/
+.details .img{
+    width: 18px;
+    height: 18px;
+    background-image: url("../img/爱心 收藏.png");
+    margin-left: 100px;
+
+}
+.img-bg{
+    width: 18px;
+    height: 18px;
+    background-image: url("../img/爱心2.png");
+    margin-left: 100px;
+}
+.img .img2{
+    width: 18px;
+    height: 18px;
+    background-image: url("../img/爱心2.png")!important;
+    margin-left: 100px;
+}
+.search_result ul li .details{
+    position: absolute;
+    padding-left: 128px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.search_result ul li img{
+    width: 180px;
+    height: 150px;
+    position: absolute;
+    top: 20px;
+    left: -40px;
+}
+.footer{
+    width: 710px;
+    height: 28px;
+    margin-left: 120px;
+}
+.footer ul{
+    width: 240px;
+    height: 28px;
+}
+.footer ul li{
+    float: left;
+    letter-spacing: 20px;
+}
+.footer ul li img{
+    padding-right: 10px;
+}
+.current{
+    width: 18px;
+    height: 18px;
+    margin-left: 100px;
+    background-image: url("../img/爱心 收藏.png")!important;
+}
