@@ -1,7 +1,8 @@
 <component name="libraryTable">
   <library name="tomcat-api">
     <CLASSES>
-      <root url="jar://D:/tomcat/lib/tomcat-api.jar!/" />
+      <root url="jar://D:/BaiduNetdiskDownload/安装包（桌面必不可少）/apache-tomcat-7.0.96/lib/tomcat-api.jar!/" />
+      <root url="jar://D:/BaiduNetdiskDownload/安装包（桌面必不可少）/apache-tomcat-7.0.96/lib/servlet-api.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

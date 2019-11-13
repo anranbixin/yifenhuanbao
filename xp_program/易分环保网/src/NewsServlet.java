@@ -15,7 +15,7 @@ public class NewsServlet extends HttpServlet {
     /** @noinspection deprecation*/
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//        NewsDao newsDao = new NewsDao();
+        NewsDao newsDao = new NewsDao();
 //        try {
 //            ResultSet rs = newsDao.selectNews();
 //            while(rs.next()){

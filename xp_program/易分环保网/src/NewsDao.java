@@ -43,16 +43,8 @@ public class NewsDao {
     }
 
 
-//
-//    public ResultSet selectNews() throws SQLException {
-//        DbUtil dbUtil=new DbUtil();
-//        String sql="SELECT * from news";
-//        Connection connection=dbUtil.getConnection();
-//        PreparedStatement pst;
-//        pst=connection.prepareStatement(sql);
-//        ResultSet rs=pst.executeQuery(sql);
-//        return rs;
-//    }
+
+
 
 
 

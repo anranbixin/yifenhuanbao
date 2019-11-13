@@ -8,7 +8,6 @@
           <element id="module-output" name="易分环保网" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="tomcat-api" />
           <element id="library" level="project" name="mysql-connector-java-5.1.6" />
         </element>
       </element>
